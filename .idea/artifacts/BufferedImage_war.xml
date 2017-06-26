@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="BufferedImage:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="BufferedImage.war">
+      <element id="artifact" artifact-name="BufferedImage:war exploded" />
+    </root>
+  </artifact>
+</component>
