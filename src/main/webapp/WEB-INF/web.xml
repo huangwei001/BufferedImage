@@ -4,4 +4,26 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>BuffImage</servlet-name>
+    <servlet-class>com.test.hw.BufferImage</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>CheckServlet</servlet-name>
+    <servlet-class>com.test.hw.CheckServlet</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>BuffImage</servlet-name>
+    <url-pattern>/servlet/BuffImage</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>CheckServlet</servlet-name>
+    <url-pattern>/servlet/CheckServlet</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
